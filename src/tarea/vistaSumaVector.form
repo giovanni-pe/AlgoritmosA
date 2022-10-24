@@ -174,7 +174,7 @@
           <Color blue="0" green="ff" red="99" type="rgb"/>
         </Property>
         <Property name="selected" type="boolean" value="true"/>
-        <Property name="text" type="java.lang.String" value="RECURSIVO"/>
+        <Property name="text" type="java.lang.String" value="FUERZA BRUTA"/>
         <Property name="borderPainted" type="boolean" value="true"/>
       </Properties>
       <Events>
@@ -192,7 +192,7 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="ITERATIVO"/>
+        <Property name="text" type="java.lang.String" value="CRIBA DE ERATOSTENES"/>
         <Property name="borderPainted" type="boolean" value="true"/>
       </Properties>
       <Events>

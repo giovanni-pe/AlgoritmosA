@@ -143,7 +143,7 @@ public class vistaSumaVector extends javax.swing.JFrame {
 
     public vistaSumaVector() throws IOException {
         this.setContentPane(fondo);
-        this.setTitle("RECURSIVIDAD");
+        this.setTitle("LA CRIBA UNASINA");
         Image imagen = new ImageIcon(getClass().getResource("insignia.png")).getImage();
         this.setIconImage(imagen);
         initComponents();
@@ -219,7 +219,7 @@ public class vistaSumaVector extends javax.swing.JFrame {
         rbtn_recursivo.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         rbtn_recursivo.setForeground(new java.awt.Color(153, 255, 0));
         rbtn_recursivo.setSelected(true);
-        rbtn_recursivo.setText("RECURSIVO");
+        rbtn_recursivo.setText("FUERZA BRUTA");
         rbtn_recursivo.setBorderPainted(true);
         rbtn_recursivo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,7 +230,7 @@ public class vistaSumaVector extends javax.swing.JFrame {
         rbtn_iterativo.setBackground(new java.awt.Color(0, 0, 0));
         rbtn_iterativo.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         rbtn_iterativo.setForeground(new java.awt.Color(255, 255, 0));
-        rbtn_iterativo.setText("ITERATIVO");
+        rbtn_iterativo.setText("CRIBA DE ERATOSTENES");
         rbtn_iterativo.setBorderPainted(true);
         rbtn_iterativo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
